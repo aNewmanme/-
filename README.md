@@ -64,7 +64,7 @@ class company {
 		if(brand!=2&&brand!=1){
 			System.out.println("您输入有误，请重新输入！");
 			a = sc.nextInt();
-			setType(a);
+			setBrand(a);
 		}
 		
 		this.brand = brand;
@@ -77,7 +77,7 @@ class company {
 		if(num!=1){
 			System.out.println("您输入有误，请重新输入！");
 			a = sc.nextInt();
-			setType(a);
+			setNum(a);
 		}
 		this.num = num;
 	}
@@ -89,7 +89,7 @@ class company {
 		if(number!=2&&number!=1){
 			System.out.println("您输入有误，请重新输入！");
 			a = sc.nextInt();
-			setType(a);
+			setNumber(a);
 		}
 		this.number = number;
 	}
