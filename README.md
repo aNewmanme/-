@@ -1,5 +1,4 @@
-# -
-第一次完成的作品！
+# -第一次完成的作品！
 
 public class jiemian extends company {
 	
