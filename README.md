@@ -22,8 +22,8 @@ public class jiemian extends company {
 		System.out.println("分配给您的汽车牌号是：京BK5543");
 		System.out.println("顾客您好！你需要支付的租赁费用是："+money);
 	}
-	
 }
+
 import java.util.Scanner;
 
 class company {
@@ -115,7 +115,6 @@ class company {
 		money=day*JLD;
 		return money;
 	}
-	
 }
 
 class jiaoche extends jiemian {
@@ -143,8 +142,8 @@ class jiaoche extends jiemian {
 			}
 		}
 	}
-	
 }
+
 class keche extends jiemian {
 	
 	public void f2() {	
@@ -168,5 +167,4 @@ class keche extends jiemian {
 			}
 		}	
 	}
-	
 }
